@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import 'whatwg-fetch'
+import 'whatwg-fetch';
 
-class About extends Component {
+export default class About extends Component {
   constructor(props) {
     super(props);
     this.state = { current_user_url: '' };
@@ -32,4 +31,3 @@ class About extends Component {
   }
 }
 
-export default About;

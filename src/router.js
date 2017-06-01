@@ -4,9 +4,9 @@ import {
     Route,
     Link
 } from 'react-router-dom';
-import Home from './home';
-import About from './about';
-import Contact from './contact';
+import Home from './components/home';
+import About from './components/about';
+import Contact from './components/contact';
 import AppBar from 'material-ui/AppBar';
 
 const MainRouter = () => (
